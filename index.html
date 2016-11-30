@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>America Info</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app= "myApp">
+    <div class="main-wrap">
+        <h1 class="text-center">Информация про путешествия в США</h1>
+        <p>Все движения по городу использовать такси Юбер - <a href="https://www.youtube.com/watch?v=0cuw6LNT1Ls">инфо</a></p>
+        <p>Все автобусы бронируется через wanderu.com</p>
+            <div class="wrapper" ng-controller="appCtrl">
+                <div class="info" ng-repeat = "d in data track by $index">
+                    <h2>День {{d.day}}:</h2>
+                    <h3 ng-show="d.notice">{{d.notice.tag}}</h3>
+                    <img ng-show="d.notice" ng-src="{{d.notice.img}}" alt="{{d.notice.tag}}">
+                    <div class="places" ng-show="d.places" ng-repeat = "place in d.places">
+                        <p class="place-tag"><a ng-href="{{place.url}}" target="blank">{{place.tag}}</a></p>
+                        <img ng-src="{{place.img}}" alt="{{place.tag}}">
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

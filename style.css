@@ -1,0 +1,32 @@
+body{
+    padding-top: 4em;
+    padding-bottom: 5em;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
+    background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
+}
+
+.main-wrap{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body h1{
+    margin-bottom: 1em;
+}
+
+body img{
+    width: 700px;
+    height: 500px;
+}
+
+body p{
+    font-size: 1.2em;
+}
+
+.place-tag{
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
