@@ -20,10 +20,10 @@
                 <div class="info" ng-repeat = "d in data track by $index">
                     <h2>День {{d.day}}:</h2>
                     <h3 ng-show="d.notice">{{d.notice.tag}}</h3>
-                    <img ng-show="d.notice" ng-src="{{d.notice.img}}" alt="{{d.notice.tag}}">
+                    <img class="img-responsive img-thumbnail" ng-show="d.notice" ng-src="{{d.notice.img}}" alt="{{d.notice.tag}}">
                     <div class="places" ng-show="d.places" ng-repeat = "place in d.places">
                         <p class="place-tag"><a ng-href="{{place.url}}" target="blank">{{place.tag}}</a></p>
-                        <img ng-src="{{place.img}}" alt="{{place.tag}}">
+                        <img class="img-responsive img-thumbnail" ng-src="{{place.img}}" alt="{{place.tag}}">
                     </div>
                 </div>
             </div>
