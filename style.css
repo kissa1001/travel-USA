@@ -17,8 +17,8 @@ body h1{
 }
 
 body img{
-    max-width: 700px;
-    max-height: 500px;
+    width: 700px;
+    height: 500px;
 }
 
 body p{
