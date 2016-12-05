@@ -27,11 +27,6 @@ angular.module('myApp', [])
                     tag: "Стена жевательной резинки (The Gum Wall)",
                     url: "http://tonkosti.ru/%D0%A1%D1%82%D0%B5%D0%BD%D0%B0_%D0%B6%D0%B5%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9_%D1%80%D0%B5%D0%B7%D0%B8%D0%BD%D0%BA%D0%B8",
                     img: "https://lifehacker.ru/wp-content/uploads/2014/08/8739492578_2243c3a0ed_k.jpg"
-                },
-                {
-                    tag: "Азиатский музей Винг Люка (Seattle Asian Art Museum)",
-                    url: "http://tonkosti.ru/%D0%90%D0%B7%D0%B8%D0%B0%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%92%D0%B8%D0%BD%D0%B3_%D0%9B%D1%8E%D0%BA%D0%B0",
-                    img: "https://img-fotki.yandex.ru/get/6419/9071570.68/0_9c0d8_b401a8b3_XL.jpg"
                 }
             ]
         },
@@ -42,11 +37,6 @@ angular.module('myApp', [])
                     tag: "Собор Сент-Джеймс (St. James Cathedral)",
                     url: "http://tonkosti.ru/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80_%D0%A1%D0%B5%D0%BD%D1%82-%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81",
                     img: "http://pics4.city-data.com/cpicv/vfiles31384.jpg"
-                },
-                {
-                    tag: "Музей авиации Сиэтла (Aviation Museum)",
-                    url: "http://tonkosti.ru/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%B0%D0%B2%D0%B8%D0%B0%D1%86%D0%B8%D0%B8_%D0%A1%D0%B8%D1%8D%D1%82%D0%BB%D0%B0",
-                    img: "http://i1.nyt.com/images/2015/12/20/travel/20AIRLINEJP3/20AIRLINEJP3-master495.jpg"
                 }
             ]
         },
@@ -179,11 +169,6 @@ angular.module('myApp', [])
                     img: "https://bboserup.files.wordpress.com/2012/07/mg_6628.jpg"
                 },
                 {
-                    tag: "Колесо обозрения «Хай Роллер» (High Roller Ferris Wheel)",
-                    url: "http://tonkosti.ru/%D0%9A%D0%BE%D0%BB%D0%B5%D1%81%D0%BE_%D0%BE%D0%B1%D0%BE%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F_%C2%AB%D0%A5%D0%B0%D0%B9_%D0%A0%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%C2%BB",
-                    img: "http://assets.nydailynews.com/polopoly_fs/1.2526451.1455089818!/img/httpImage/image.jpg_gen/derivatives/article_750/wheel11n-1-web.jpg"
-                },
-                {
                     tag: "Стрип (Strip)",
                     url: "http://tonkosti.ru/%D0%A1%D1%82%D1%80%D0%B8%D0%BF",
                     img: "http://www.mrwallpaper.com/wallpapers/las-vegas-strip.jpg"
@@ -194,9 +179,9 @@ angular.module('myApp', [])
             day: 14,
             places: [
                 {
-                    tag: "Музей ядерных испытаний (Museum of Nuclear Testing)",
-                    url: "http://tonkosti.ru/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D1%8F%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D1%85_%D0%B8%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D0%BD%D0%B8%D0%B9",
-                    img: "https://img.grouponcdn.com/deal/spxvTGmxsdY6GTRtKfC2/Qp-700x420.jpg/v1/c700x420.jpg"
+                    tag: "Колесо обозрения «Хай Роллер» (High Roller Ferris Wheel)",
+                    url: "http://tonkosti.ru/%D0%9A%D0%BE%D0%BB%D0%B5%D1%81%D0%BE_%D0%BE%D0%B1%D0%BE%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F_%C2%AB%D0%A5%D0%B0%D0%B9_%D0%A0%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%C2%BB",
+                    img: "http://assets.nydailynews.com/polopoly_fs/1.2526451.1455089818!/img/httpImage/image.jpg_gen/derivatives/article_750/wheel11n-1-web.jpg"
                 },
                 {
                     tag: "Башня «Стратосфера» (Stratosphere Tower)",
